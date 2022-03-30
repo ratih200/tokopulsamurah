@@ -11581,6 +11581,16 @@ footer a:hover, footer a:active, footer a:focus {
 .masthead .masthead-device-mockup .device-wrapper {
   max-width: 10rem;
 }
+
+@media (min-width:375px){
+  .mob_banner{
+    display:block;
+  }
+  #mob_banner1{
+    display:none;
+  }
+}
+
 @media (min-width: 576px) {
   .masthead .masthead-device-mockup .circle {
     width: 70%;
@@ -11588,6 +11598,12 @@ footer a:hover, footer a:active, footer a:focus {
   }
   .masthead .masthead-device-mockup .device-wrapper {
     max-width: 12.5rem;
+  }
+  .mob_banner{
+    display:block;
+  }
+  #mob_banner1{
+    display:none;
   }
 }
 @media (min-width: 768px) {
@@ -11597,6 +11613,13 @@ footer a:hover, footer a:active, footer a:focus {
   .masthead .masthead-device-mockup .device-wrapper {
     max-width: 15rem;
   }
+  .mob_banner{
+    display: none;
+  }
+  #mob_banner1{
+    display:block;
+  }
+
 }
 @media (min-width: 992px) {
   .masthead .masthead-device-mockup .circle {
@@ -11605,6 +11628,13 @@ footer a:hover, footer a:active, footer a:focus {
   .masthead .masthead-device-mockup .device-wrapper {
     max-width: 15rem;
   }
+  .mob_banner{
+    display: none;
+  }
+  #mob_banner1{
+    display:block;
+  }
+
 }
 @media (min-width: 1200px) {
   .masthead .masthead-device-mockup .circle {
@@ -11613,6 +11643,13 @@ footer a:hover, footer a:active, footer a:focus {
   .masthead .masthead-device-mockup .device-wrapper {
     max-width: 15rem;
   }
+  .mob_banner{
+    display: none;
+  }
+  #mob_banner1{
+    display:block;
+  }
+
 }
 @media (min-width: 1400px) {
   .masthead .masthead-device-mockup .circle {
@@ -11620,5 +11657,11 @@ footer a:hover, footer a:active, footer a:focus {
   }
   .masthead .masthead-device-mockup .device-wrapper {
     max-width: 17rem;
+  }
+  .mob_banner{
+    display: none;
+  }
+  #mob_banner1{
+    display:block;
   }
 }
